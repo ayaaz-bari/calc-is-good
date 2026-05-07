@@ -1,0 +1,36 @@
+body {
+    background: url(https://thumbs.dreamstime.com/b/kids-game-rock-paper-scissors-pattern-blue-background-134992619.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    color: chocolate;
+}
+
+
+#card {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    color: aquamarine;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+}
